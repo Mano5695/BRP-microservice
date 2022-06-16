@@ -4,8 +4,6 @@ server:
 spring:
   application:
     name: task-manage-service
-  config:
-    import: "optional:configserver:"
     
 eureka:
   client:
