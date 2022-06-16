@@ -1,0 +1,13 @@
+server:
+  port : 8082
+  
+spring:
+  application:
+    name: task-manage-service
+  config:
+    import: "optional:configserver:"
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
